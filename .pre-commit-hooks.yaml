@@ -7,7 +7,7 @@
   args: ["--"]
 - id: fmt-nightly
   name: fmt nightly
-  description: Format files with cargo fmt.
+  description: Format files with cargo fmt using the nightly toolchain to support unstable features.
   entry: cargo +nightly fmt
   language: system
   types: [rust]
